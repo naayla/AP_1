@@ -12,29 +12,29 @@ int main (){
     /*ini untuk komentar
     beberapa baris*/
 
-    cout << "Hello World!" << endl;
+    cout << "Hello World!" << endl; // Menampilkan teks "Hello World" ke layar
 
-    cout << "Masukkan nama:" ;
+    cout << "Masukkan nama:" ; // Input nama dari pengguna
     // cin >> nama;
     getline (cin, nama); //agar karakter spasi bisa terbaca
 
-    cout << "Masukkan Kom:";
+     cout << "Masukkan Kom:"; // Input Kom
      cin >> kom;
 
-     cout << "Masukkan NIM::";
+     cout << "Masukkan NIM::"; // Input NIM
      cin >> nim;
      
-     cout << "Masukkan IP:";
+     cout << "Masukkan IP:"; // Input IP
      cin >> ip;
      
      cout << "Masukkan jenis kelamin (L/P) :";
      jenisKelamin = getche(); //agar karakter langsung tampil, jadi ga perlu tekan enter
 
     /*untuk output*/
-    cout << "\n" << nama << endl;
-    cout << kom << endl;
-    cout << nim << endl;
-    cout << ip << endl;
+    cout << "\n" << nama << endl; // Menampilkan nama yang diinput pengguna
+    cout << kom << endl; // Menampilkan kom yang diinput pengguna
+    cout << nim << endl; // Menampilkan nim yang diinput pengguna
+    cout << ip << endl; // Menampilkan ip yang diinput pengguna
     putchar(jenisKelamin); // untuk menampilkan karakter jenis kelamin
 
     getch(); // karakter yang diketik gak ditampilkan di layar
