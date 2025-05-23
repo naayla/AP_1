@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> // Header untuk c++
 using namespace std;
 
 int main() {
@@ -43,26 +43,26 @@ int main() {
     // int i = 1;
     // do {
     //     cout << i << endl;
-    // } while (i <= 0);
+    // } while (i <= 0); // 1 <= 0 // kondisi false, loop jalan sekali
 
     // Statement for
     // for (inisialisasi, kondisi, increase)
     // for (int i = 1; i <= 10; i+=2) {
-    //     cout << "Hello World" << endl;
+    //     cout << "Hello World" << endl; // i = i + 2 //cetak hello wordl 5 kali
     // }
 
     // Nested for
     // ***** 5 x 5
-    // for (int i = 1; i <= 5; i++) {
-    //     for (int j = 1; j <= 5; j++) {
+    // for (int i = 1; i <= 5; i++) { // Loop baris
+    //     for (int j = 1; j <= 5; j++) { // Loop kolom 
     //         cout << " * ";
     //     }
     //     cout << endl;
     // }
 
     // Segitiga siku-siku
-    // for(int i = 1; i <= 5; i++) {
-    //     for(int j = 1; j <= i; j++) {
+    // for(int i = 1; i <= 5; i++) { // Loop baris
+    //     for(int j = 1; j <= i; j++) { // Loop kolom
     //         cout << "* ";
     //     }
     //     cout << endl;
