@@ -1,10 +1,10 @@
-#include <iostream>
+#include <iostream> // Header untuk c++
 using namespace std;
 
-string namaGlobal = "Ilmu";
+string namaGlobal = "Ilmu"; // Variabel Global
 
-void namaVariabel() {
-    string namaLokal = "Komputer";
+void namaVariabel() { // Fungsi Nama Variabel
+    string namaLokal = "Komputer"; // Variabel Lokal utnuk fungsi 'namaVariabel'
 
     // coba akses
     cout << namaLokal << endl;
@@ -14,11 +14,11 @@ void namaVariabel() {
 }
 
 int main() {
-    namaVariabel();
+    namaVariabel(); // Memanggil fungsi 'namaVariabel'
 
     // coba akses 
     cout << namaGlobal << endl;
 
-    // coba akses
-    // cout << namaLokal << endl;
+    // coba akses 
+    // cout << namaLokal << endl; // Tidak bs
 }
