@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> // Header untuk c++
 using namespace std;
 
 // fungsi tanpa nilai balikan
@@ -8,24 +8,24 @@ void tampilkanPesan(){
 
 // fungsi dengan nilai balikan
 int tambah(int a, int b) {
-    return a + b;
+    return a + b; // Mengembalikan hasil penjumlahan a dan b
 }
 
 // fungsi overload
-int kali(int a, int b) {
+int kali(int a, int b) { // Untuk perkalian bilangan bulat
     return a * b;
 }
 
 double kali(double a, double b){
-    return a * b;
+    return a * b; // Perkalian bilangan desimal
 }
 
 // fungsi rekursif : menghitung nilai faktorial
 int faktorial(int n){
     if (n==0 || n==1){
-        return 1;
+        return 1; // Kondisi awal
     } else {
-        return n * faktorial(n-1);
+        return n * faktorial(n-1); // Memanghil dirinya sendiri dengan n-1
     }
 }
 
@@ -38,12 +38,12 @@ int main() {
     int x = 5, y = 3;
 
     // menggunakan fungsi dengan nilai balikan 
-    int hasilTambah = tambah(x,y);
+    int hasilTambah = tambah(x,y); n// Memanggil hasil penjumlahan
     cout << "hasil penjumlahan : " << hasilTambah << endl;
 
     //  menggunakan fungsi overload
-    int hasilKaliInt = kali(x,y);
-    double hasilKaliDouble = kali(5.5 , 2.0);
+    int hasilKaliInt = kali(x,y); // Memanggil kali untuk int
+    double hasilKaliDouble = kali(5.5 , 2.0); // Memanggil kali untuk desimal
     cout << "hasil perkalian (int) : " << hasilKaliInt << endl;
     cout << "hasil perkalian (double) : " << hasilKaliDouble << endl;
 
